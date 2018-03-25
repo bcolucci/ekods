@@ -1,0 +1,25 @@
+{
+  "name": "ekods-core",
+  "version": "0.0.1",
+  "scripts": {
+    "test": "nyc ava"
+  },
+  "dependencies": {
+    "ramda": "^0.25.0"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "istanbul": "^0.4.5",
+    "nyc": "^11.6.0"
+  },
+  "ava": {
+    "files": [
+      "test.js"
+    ],
+    "source": [
+      "index.js"
+    ],
+    "failFast": true,
+    "verbose": true
+  }
+}

@@ -1,0 +1,12 @@
+body {
+    background-color: #f1d511;
+}
+
+.navbar {
+    margin-bottom: 0px!important;
+}
+
+main .container {
+    background-color: #fff;
+    padding-top: 20px;
+}
